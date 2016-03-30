@@ -8,7 +8,6 @@ import numpy as np
 f = open('ml-100k/u.data', 'r', encoding='utf-8')
 line = f.readline()
 
-
 # chunk[0] = user id
 # chunk[1] = item id
 # chunk[2] = rating
