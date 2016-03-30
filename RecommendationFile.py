@@ -5,7 +5,7 @@ import scipy.sparse
 from scipy.sparse import linalg
 import numpy as np
 
-f = open('ml-100k/u1.base', 'r', encoding='utf-8')
+f = open('ml-100k/u.data', 'r', encoding='utf-8')
 line = f.readline()
 
 # chunk[0] = user id
