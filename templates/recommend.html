@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Recommendation System</title>
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+    function goBack() {
+        window.history.back();
+    }
+    </script>
+    <div class="container">
+        <div class="header">
+            <h3 class="text-muted">Ryan Wedoff & Zongsheng Sun</h3>
+        </div>
+
+        <div class="jumbotron">
+            <h2>Recommendation Systems Project</h2>
+            <h5>Stewart Group 3</h5>
+            <p class="lead"></p>
+            <div>
+                <h2>{{recs}}</h2>
+                <button class="btn btn-primary btn-sm" onclick="goBack()" >Try Another</button>
+            </div>
+        </div>
+        <div class="row">
+            <p>Data from: http://grouplens.org/datasets/movielens/</p>
+        </div>
+        <footer class="footer">
+            <p>Large Data Analysis Project 2016</p>
+        </footer>
+    </div>
+</body>
+</html>
